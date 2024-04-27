@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    margin: auto;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    width: 200px;
+    margin-top: 200px;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+    background-color: #505050;
+    border-radius: 7px;
+    margin: 80px auto 30px;
+}
+
+#email p {
+    padding: 9px 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+#senha{
+    width: 400px;
+    height: 40px;
+    background-color: #505050;
+    border-radius: 7px;
+    margin: auto;
+}
+
+#senha p {
+    padding: 9px 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+#entrar {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 40px auto;
+}
+
+#entrar p {
+    padding: 9px 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: background .3s;
+    border-radius: 50%;
+}
+
+#social-links a:hover {
+    background: #6d6d6d
+}
